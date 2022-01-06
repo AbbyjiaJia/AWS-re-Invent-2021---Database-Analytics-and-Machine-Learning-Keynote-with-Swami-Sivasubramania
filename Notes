@@ -1,0 +1,73 @@
+ The most straightforward and simple solution for many customers who are struggling to maintain their own relational database at sclae is to ** move to a managed database service**.
+ --> These customers are often moving to Amazon Aurora. *Amazon Aurora is  MySQL / PostgreSQL - compatible relational database service that combine availbility, security and performance of high-end commercial databases*
+ --> Aurora takes care of all the undifferentiated heavy lifting associated with running a database
+ 
+ 
+ New Services offerings in Database
+ ** Amazon DevOps Guru for RDS: **
+-->  Simply detecting the issues to actually explaining the causes and recommendig fixes for these complex database performance related issues.
+--> Automatically identifies a wide range of database-related issues(resource contention, resource exhaustion, query regression) and then it provides in-depth root cause analysis with context, reasoning and guidance
+
+
+ ** Amazon RDS Custom support from SQL Server application (Already Supporting Oracle and SQL apps) **
+ --> A managed database service for applications requiring customisation of your underlying database and operation system.
+ 
+ 
+ ** Amazon DynamoDB **
+ --> To design tohandle large amounts of data that is key value at a single digit millisecond performance at virtually any scale
+ 
+  
+** Amazon DynamoDB Standard-Infrequent Access table class **
+--> To sotre infrequently accessed data while maintaining the high availability and performance
+--> It reduces sotrage costs by up to 60% than existing Dynamo costs without comprising on durability, availability and scale
+
+
+** AWS Database Migration Service Fleet Advisor **
+--> Accelarate database migration with automated inventory and migration recommendations.
+--> A new capability of AWS DMS that automates migration planning for an entire fleet of databases.
+--> It automatically build an inventory of your on-prem databse and analytic service by streaming data from on-prem to AWS S3. From there, AWS analyse then to match with the appropriate amount of AWS datastore and then provide customised migration plans.
+--> To modernise your data infra with powerful relational and purpose-built databases.
+
+
+** Amazon S3 as data lake **
+--> Unmatched durability, availability and scalability
+--> Best security, compliance and audit capabilities
+--> AI-enable continuous cost optimisation: intelligent tiering
+--> features to fit any enterprise's objects-level control needs
+--> cold sotrage, replication and archive capabilities
+--> Broadest portfolio of analytics tools
+--> adapts to customer data lake needs
+
+
+** Amazon Redshift Managed sotrage **
+--> Enable scaling of storage and compute separately
+--> Pay only for the storage ot compute you use
+
+
+** AWS ML stack **
+1. ML frameworks and infra
+2. ML services
+3. AI services
+
+
+** Amazon SageMaker Ground Truth Plus ** -- Data preparation
+--> provide data labeling workflows based on unique requirements and manages them on your behalf
+--> Access highlu skilled data labelers
+--> decrease cost and increase quality with ML techniques
+--> monitor and provide feedback with dashboards
+
+
+** Amazon SageMaker Studio Notebook **  -- Data building
+--> perform data engineering, analytics, and ML workflows in one notebook
+--> AWS Sagemaker studio notebook (spin up a notebook) - AWS analytics + third party data source (connect to data source like AWS EMR using Spark to bring the data in notebook) - AWS sagemaker studio notebook (write code to access data + perform queries) - AWS sagemaker studio notebook (create + deploy model)
+
+
+** Amazon SageMaker Infrastructure Innovation (Training Compiler) **
+--> It accelates model training and integrates with Tensorflow and PyTorch
+
+
+ Amazon SageMaker Infrastructure Innovation (Inference Recommender)
+Amazon SageMaker Infrastructure Innovation (Serverless Inference) 
+Amazon Kendra Experience Builder 
+Amazon Lex Automated Chatbot Designer
+Amazon SageMaker Studio Lab
